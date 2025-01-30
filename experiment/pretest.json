@@ -2,37 +2,54 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the main goal of Exploratory Data Analysis (EDA)?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To build machine learning models",
+        "b": "To clean and preprocess data",
+        "c": "To understand the underlying patterns in the data",
+        "d": "To perform statistical analysis"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "While machine learning is important, EDA is more about exploring and understanding the data first.",
+        "b": "Cleaning and preprocessing are part of data preparation, but EDA focuses on exploration.",
+        "c": "Correct! The main goal of EDA is to understand the patterns, trends, and anomalies in the data.",
+        "d": "Statistical analysis can be part of EDA, but the primary focus is data exploration."
       },
-      "correctAnswer": "a",
+      "correctAnswer": "c",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which of the following is a common method for visualizing data in EDA?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Bar plot",
+        "b": "Heatmap",
+        "c": "Box plot",
+        "d": "All of the above"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Bar plots are commonly used in EDA for categorical data.",
+        "b": "Heatmaps are used to visualize correlation matrices and patterns in EDA.",
+        "c": "Box plots are often used to identify outliers and the distribution of data.",
+        "d": "Correct! All of these are common methods used in EDA."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following would you most likely check during the EDA process?",
+      "answers": {
+        "a": "Data types of the features",
+        "b": "Model accuracy",
+        "c": "Hyperparameter tuning",
+        "d": "Train-test split"
+      },
+      "explanations": {
+        "a": "Correct! In EDA, you would check the data types of features to understand the structure of the data.",
+        "b": "Model accuracy is typically checked after building a model, not during EDA.",
+        "c": "Hyperparameter tuning is part of model optimization, not EDA.",
+        "d": "The train-test split happens after EDA when you are preparing data for model building."
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
