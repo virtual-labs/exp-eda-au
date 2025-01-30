@@ -2,38 +2,55 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "During EDA, which of the following would be useful to identify outliers in the data?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Histogram",
+        "b": "Box plot",
+        "c": "Pie chart",
+        "d": "Line plot"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Histograms show the frequency distribution but are not specifically used for identifying outliers.",
+        "b": "Correct! Box plots are particularly useful for identifying outliers and visualizing data distribution.",
+        "c": "Pie charts are used for showing proportions and are not useful for detecting outliers.",
+        "d": "Line plots are used for time series data but are not ideal for detecting outliers."
       },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "Which of the following techniques would you use in EDA to check for missing values in your dataset?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Box plot",
+        "b": "Null value analysis",
+        "c": "Bar plot",
+        "d": "Heatmap"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Box plots are useful for visualizing data distribution and outliers, not for missing values.",
+        "b": "Correct! Null value analysis is performed to check for missing data in the dataset.",
+        "c": "Bar plots are used for categorical data visualization, not for identifying missing values.",
+        "d": "Heatmaps can also be useful for visualizing missing data by showing missing value patterns."
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What is a pair plot used for in EDA?",
+      "answers": {
+        "a": "Visualizing correlation between multiple variables",
+        "b": "Visualizing the distribution of individual features",
+        "c": "Visualizing missing data",
+        "d": "Visualizing time series data"
+      },
+      "explanations": {
+        "a": "Correct! Pair plots visualize the relationships between pairs of variables in a dataset.",
+        "b": "Pair plots focus on relationships between variables, not individual feature distributions.",
+        "c": "Missing data is not visualized by pair plots.",
+        "d": "Pair plots are not specific to time series data."
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
     }
   ]
 }
