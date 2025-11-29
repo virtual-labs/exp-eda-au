@@ -1,0 +1,107 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the main goal of Exploratory Data Analysis (EDA)?",
+      "answers": {
+        "a": "To build machine learning models",
+        "b": "To clean and preprocess data",
+        "c": "To understand the underlying patterns in the data",
+        "d": "To deploy the final model"
+      },
+      "explanations": {
+        "a": "Model building happens after EDA.",
+        "b": "Cleaning is related but not the main goal of EDA.",
+        "c": "Correct! EDA aims to discover patterns, anomalies, and insights.",
+        "d": "Deployment is not part of EDA."
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is a common method used for visualizing data in EDA?",
+      "answers": {
+        "a": "Histograms",
+        "b": "Box plots",
+        "c": "Scatter plots",
+        "d": "All of the above"
+      },
+      "explanations": {
+        "a": "Histograms show numerical data distribution.",
+        "b": "Box plots help detect outliers.",
+        "c": "Scatter plots show relationships between variables.",
+        "d": "Correct! All of these visualizations are used in EDA."
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is commonly examined at the beginning of EDA?",
+      "answers": {
+        "a": "Data types of each feature",
+        "b": "Neural network architecture",
+        "c": "Final model accuracy",
+        "d": "Hyperparameters"
+      },
+      "explanations": {
+        "a": "Correct! EDA begins with understanding data types and structure.",
+        "b": "Model architecture is not part of EDA.",
+        "c": "Accuracy is checked after training a model, not during EDA.",
+        "d": "Hyperparameters are tuned after model training."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which technique is commonly used to identify outliers during EDA?",
+      "answers": {
+        "a": "Box plot",
+        "b": "One-hot encoding",
+        "c": "Min-max scaling",
+        "d": "Train-test splitting"
+      },
+      "explanations": {
+        "a": "Correct! Box plots help visualize outliers in numerical data.",
+        "b": "One-hot encoding is used for categorical variables.",
+        "c": "Scaling is applied after EDA.",
+        "d": "Train-test split is done after EDA."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which EDA technique helps summarize the central tendency and variability of numerical data?",
+      "answers": {
+        "a": "Descriptive statistics",
+        "b": "Scatter plots",
+        "c": "Feature engineering",
+        "d": "Correlation matrix"
+      },
+      "explanations": {
+        "a": "Correct! Descriptive statistics include mean, median, variance, and percentiles.",
+        "b": "Scatter plots show relationships, not central tendency.",
+        "c": "Feature engineering is performed after understanding the data.",
+        "d": "Correlation matrices show relationships between features."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which visualization or tool is commonly used to understand relationships between multiple numerical variables?",
+      "answers": {
+        "a": "Correlation matrix",
+        "b": "Bar chart",
+        "c": "Histogram",
+        "d": "Duplicate removal"
+      },
+      "explanations": {
+        "a": "Correct! Correlation matrices show relationships between multiple variables.",
+        "b": "Bar charts are used for categorical data.",
+        "c": "Histograms show single-variable distributions.",
+        "d": "Removing duplicates is data cleaning, not relationship analysis."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
