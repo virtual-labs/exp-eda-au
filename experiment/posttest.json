@@ -2,7 +2,7 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "During EDA, which of the following would be useful to identify outliers in the data?",
+      "question": "During EDA, which of the following visualizations is most useful for identifying outliers?",
       "answers": {
         "a": "Histogram",
         "b": "Box plot",
@@ -10,47 +10,98 @@
         "d": "Line plot"
       },
       "explanations": {
-        "a": "Histograms show the frequency distribution but are not specifically used for identifying outliers.",
-        "b": "Correct! Box plots are particularly useful for identifying outliers and visualizing data distribution.",
-        "c": "Pie charts are used for showing proportions and are not useful for detecting outliers.",
-        "d": "Line plots are used for time series data but are not ideal for detecting outliers."
+        "a": "Histograms help understand distributions but are not specifically for outlier detection.",
+        "b": "Correct! Box plots are widely used in EDA to detect outliers and understand data spread.",
+        "c": "Pie charts show proportions, not outliers.",
+        "d": "Line plots are useful for trends in time-series data, not outliers."
       },
       "correctAnswer": "b",
-      "difficulty": "intermediate"
+      "difficulty": "beginner"
     },
     {
-      "question": "Which of the following techniques would you use in EDA to check for missing values in your dataset?",
+      "question": "Which technique is commonly used in EDA to check for missing values in a dataset?",
       "answers": {
-        "a": "Box plot",
+        "a": "Value counts",
         "b": "Null value analysis",
-        "c": "Bar plot",
-        "d": "Heatmap"
+        "c": "Scatter plot",
+        "d": "Pie chart"
       },
       "explanations": {
-        "a": "Box plots are useful for visualizing data distribution and outliers, not for missing values.",
-        "b": "Correct! Null value analysis is performed to check for missing data in the dataset.",
-        "c": "Bar plots are used for categorical data visualization, not for identifying missing values.",
-        "d": "Heatmaps can also be useful for visualizing missing data by showing missing value patterns."
+        "a": "Value counts summarizes categorical values but doesn't show missing values.",
+        "b": "Correct! Null value analysis checks how many values are missing in each column.",
+        "c": "Scatter plots show relationships between variables, not missing values.",
+        "d": "Pie charts do not reveal missing data."
       },
       "correctAnswer": "b",
-      "difficulty": "intermediate"
+      "difficulty": "beginner"
     },
     {
       "question": "What is a pair plot used for in EDA?",
       "answers": {
-        "a": "Visualizing correlation between multiple variables",
-        "b": "Visualizing the distribution of individual features",
-        "c": "Visualizing missing data",
-        "d": "Visualizing time series data"
+        "a": "Visualizing relationships between multiple numerical variables",
+        "b": "Displaying missing value patterns",
+        "c": "Showing the distribution of a single feature",
+        "d": "Analyzing time series data"
       },
       "explanations": {
-        "a": "Correct! Pair plots visualize the relationships between pairs of variables in a dataset.",
-        "b": "Pair plots focus on relationships between variables, not individual feature distributions.",
-        "c": "Missing data is not visualized by pair plots.",
-        "d": "Pair plots are not specific to time series data."
+        "a": "Correct! Pair plots display pairwise relationships between numerical variables.",
+        "b": "Missing data is not visualized with pair plots.",
+        "c": "A histogram or box plot is used for single-feature distribution.",
+        "d": "Pair plots are not used specifically for time-series analysis."
       },
       "correctAnswer": "a",
-      "difficulty": "advanced"
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which descriptive statistics method helps summarize central tendency and variability?",
+      "answers": {
+        "a": "Mean, median, and standard deviation",
+        "b": "Scatter plot",
+        "c": "Heatmap",
+        "d": "Feature engineering"
+      },
+      "explanations": {
+        "a": "Correct! These descriptive statistics help summarize important properties of numerical data.",
+        "b": "Scatter plots show relationships, not statistics.",
+        "c": "Heatmaps show correlations or patterns, not descriptive metrics.",
+        "d": "Feature engineering creates new features but does not summarize existing ones."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which visualization helps understand the distribution of a numerical variable?",
+      "answers": {
+        "a": "Histogram",
+        "b": "Bar chart",
+        "c": "Correlation matrix",
+        "d": "Pair plot"
+      },
+      "explanations": {
+        "a": "Correct! Histograms show how numerical values are distributed across ranges.",
+        "b": "Bar charts are used for categorical data.",
+        "c": "Correlation matrices show relationships between variables.",
+        "d": "Pair plots show pairwise relationships, not single-variable distribution."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "In EDA, what does a correlation matrix help identify?",
+      "answers": {
+        "a": "Outliers",
+        "b": "Relationships between numerical variables",
+        "c": "Missing values",
+        "d": "Categorical distributions"
+      },
+      "explanations": {
+        "a": "Outliers are detected using box plots, not correlation matrices.",
+        "b": "Correct! Correlation matrices show the strength and direction of relationships between numerical features.",
+        "c": "Missing values are identified through null-value analysis.",
+        "d": "Categorical distributions are shown using bar charts."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
     }
   ]
 }
